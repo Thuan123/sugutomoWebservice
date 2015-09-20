@@ -11,7 +11,13 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+         // put your code here
+        $du_lieu_tra_ve_xml = file_get_contents("http://localhost/SugutomoWebService?getUser&format=xml");
+        echo $du_lieu_tra_ve_xml;
+ 
+         //Lấy dữ liệu trả về dạng json
+        $du_lieu_tra_ve_json = file_get_contents("http://localhost/SugutomoWebService?getUser&format=json");
+        echo $du_lieu_tra_ve_json;
         ?>
     </body>
 </html>

@@ -19,10 +19,16 @@ and open the template in the editor.
         $du_lieu_tra_ve_json = file_get_contents("http://localhost/SugutomoWebService?getUser&format=json");
         echo $du_lieu_tra_ve_json;
         
+        echo "---------------------------------------------------------------------------------------------";
+        echo "task1";
         echo "DaoHongThuan";
         echo "CaoPhuongAnh";
         echo "Nguyen Van Tu";
         echo "Nguyen Thanh Nga";
+        echo "----------------------------------------------------------------------------------------------";
+        echo "Task2";
+        echo "Ho Thi Anh";
+        echo "-----------------------------------------------------------------------------------------------";
         ?>
         
     </body>

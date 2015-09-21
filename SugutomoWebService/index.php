@@ -18,6 +18,12 @@ and open the template in the editor.
          //Lấy dữ liệu trả về dạng json
         $du_lieu_tra_ve_json = file_get_contents("http://localhost/SugutomoWebService?getUser&format=json");
         echo $du_lieu_tra_ve_json;
+        
+        echo "DaoHongThuan";
+        echo "CaoPhuongAnh";
+        echo "Nguyen Van Tu";
+        echo "Nguyen Thanh Nga";
         ?>
+        
     </body>
 </html>

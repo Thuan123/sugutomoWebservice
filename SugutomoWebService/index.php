@@ -23,6 +23,10 @@ and open the template in the editor.
         echo "CaoPhuongAnh";
         echo "Nguyen Van Tu";
         echo "Nguyen Thanh Nga";
+        
+        echo "Test task2";
+        echo "Do Van Duc";
+        echo "";
         ?>
         
     </body>
